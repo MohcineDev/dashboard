@@ -27,6 +27,9 @@ svg{
 	justify-content: space-between;
 	padding:20px 20px;
 	box-sizing: border-box;
+	position: sticky;
+	left: 0;
+	top: 0;
 }
 
 .aside_dark .top .img{
