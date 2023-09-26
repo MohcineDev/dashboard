@@ -6,6 +6,8 @@
 	--crimson: #e06c9f;
 	--green:#00a0b6;
 	--light:#ebf2fc;
+ 
+	--shadow : 0  5px 5px #ccc;
 }
 body {
 	margin:0;
@@ -99,6 +101,7 @@ svg{
 	margin-right: 10px;
 	color: #fff;
 	padding: 10px;
+	box-shadow: var(--shadow );
 }
 .categories  #pictures{
 	background: var(--purple);
@@ -165,6 +168,7 @@ svg{
     align-items: center;
 	font-size: 14px	;
 	margin: 10px 0;
+	box-shadow: var(--shadow);
 } 
 .row .svg-container { 
     display: flex;
@@ -195,6 +199,7 @@ svg{
 .row>svg:nth-of-type(2), .row>svg:nth-of-type(1){
 	justify-self:end; 
 } 
+
 svg{
 	width: 25px;
 }
@@ -212,6 +217,7 @@ svg{
 	max-width: 300px;
     flex-grow: 1;
     border-radius: 20px;
+	box-shadow: var(--shadow);
 }
 .upload{
 	background-color:#ebf2fc;
@@ -344,6 +350,7 @@ svg{
     box-shadow: 0 0 8px #bbb;
     border: 1px solid var(--dark-blue) ;
     display: none;
+	transition: display 0.3s;
 }
 .more_option_recent_files li{
 	padding: 5px 10px;
