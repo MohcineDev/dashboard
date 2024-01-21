@@ -1,3 +1,3 @@
 ###dashboard
 
-<img src="./dashboard.png" alt="dashboard">
+<img src="./dashboard.webp" alt="dashboard">
